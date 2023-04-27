@@ -1,0 +1,28 @@
+radix 1 1 1
+
+io i i i
+
+vname A B Cin
+
+tunit ns
+period 10
+
+; trise specifies the rise time of each input vector.
+trise 0.01
+; tfall specifies the fall time of each input vector.
+tfall 0.01
+
+vih 1.2
+vil 0
+
+voh 1.2
+vol 0
+
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
